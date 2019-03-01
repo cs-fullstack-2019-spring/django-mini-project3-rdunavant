@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Teacher's Name</h1>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static App/index.css' %">
+<a href="{% url 'teacher' %}">Teacher's name</a>
+{% for teacher in teacher_list %}
+<p><a href="{% url 'school' teacher.id %}">
+    {{teacher.name}}
+</a>
+</p>
+<p>{{school.name}}</p>
+<p>{{subject.name}}</p>
+<p>{{hours}}</p>
+<p>{{dateOfWork}}</p>
+<p>{{dateOfEntry}}</p>
+</body>
+</html>
