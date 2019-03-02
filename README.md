@@ -1,3 +1,6 @@
+### POINTS: 0
+### KEY: Partial submission but doesnt run
+
 # Mini-Project Django
 
 THIS IS A SOLO PROJECT.
